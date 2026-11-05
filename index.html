@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitt första AI-projekt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 80px 20px;
+      background: #f5f5f5;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 14px 24px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mitt första AI-projekt</h1>
+  <p>Jag har byggt min första webbsida med hjälp av AI!</p>
+  <button onclick="visaMeddelande()">Klicka här</button>
+  <p id="meddelande"></p>
+
+  <script>
+    function visaMeddelande() {
+      document.getElementById("meddelande").textContent =
+        "Det fungerar! Jag har skapat min första interaktiva webbsida.";
+    }
+  </script>
+</body>
+</html>
